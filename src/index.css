@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@font-face {
+  font-family: "Grifter";
+  src: url('./assets/fonts/grifterbold.otf')
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .full-bleed{
+    @apply w-[100vw] ml-[50%] -translate-x-[50%]
+  }
+
+  .wrapper{
+    @apply w-[95%] max-w-[90rem] ml-[auto] mr-[auto]
+  }
 }
