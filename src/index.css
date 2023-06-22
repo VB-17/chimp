@@ -9,6 +9,11 @@
   src: url('./assets/fonts/grifterbold.otf')
 }
 
+@font-face {
+  font-family: "Source serif";
+  src: url('./assets/fonts/source-serif-pro.regular.ttf')
+}
+
 @layer components {
   .full-bleed{
     @apply w-[100vw] ml-[50%] -translate-x-[50%]
