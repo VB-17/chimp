@@ -13,12 +13,12 @@ function App() {
   return (
     <div className="font-montserrat min-h-screen bg-primary-600 text-white">
 
-      <ResponsiveIndicator />
+      {/* <ResponsiveIndicator /> */}
       <ComingSoonPage />
       {/* <BlogPage /> */}
       {/* <ContactPage /> */}
 
-      <HomePage />
+      {/* <HomePage /> */}
 
       {/* <div className="wrapper border-2  border-red-600">
         <Navbar />
