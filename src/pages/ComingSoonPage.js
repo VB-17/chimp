@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import useCountdown from "../hooks/useCountdown";
 import Logo from "../components/Logo";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 import { socialLinks } from "../lib/constants";
-import CustomToast from "../components/CustomToast";
 
 function ComingSoonPage() {
-  const endDate = "2023-06-26";
+  const endDate = "2023-06-30";
   const time = useCountdown(Date.parse(endDate));
 
   const [email, setEmail] = useState("");
@@ -77,13 +76,13 @@ function ComingSoonPage() {
                 id="email"
                 onChange={handleChange}
                 value={email}
-                className="bg-primary-600 border-2 border-white/50 text-white text-sm rounded-2xl placeholder:text-white/50 block w-full px-6 py-5"
+                className="form-input block w-full px-6 py-5"
                 placeholder="Enter your email address"
                 required
               />
               <button
                 type="submit"
-                className="mt-14 font-grifter rounded-lg text-xl xl:text-3xl xl:py-3 xl:px-6 tracking-wide py-2 px-4 text-primary-500 bg-secondary-700 shadow-[4px_4px_0px_#FFFDB4]"
+                className="btn-primary mt-14"
               >
                 Submit
               </button>

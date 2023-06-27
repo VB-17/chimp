@@ -10,7 +10,7 @@ function Logo({ initialHidden, variant }) {
       } bg-black leading-tight inline-block border-2 rounded-md py-0.5 px-2  shadow-[4px_4px_0px_#fff]`}
     >
       <h2
-        className={`${size} tracking-wide font-poppins font-extrabold uppercase`}
+        className={`${size} tracking-wider font-poppins font-extrabold uppercase`}
       >
         Chimp
       </h2>

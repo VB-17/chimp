@@ -91,9 +91,7 @@ function BlogPage() {
           <h2 className="text-[2rem] uppercase leading-tight tracking-wider">
             Ready to bring your vision to life?
           </h2>
-          <button className="bg-secondary-700 rounded-lg py-3 px-2 text-primary-500 shadow-[4px_4px_0px_#FFFDB4]">
-            Contact Us
-          </button>
+          <button className="btn-primary">Contact Us</button>
         </div>
         <div className="space-y-4">
           {[1, 2].map((i) => (

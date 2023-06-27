@@ -15,11 +15,20 @@
 }
 
 @layer components {
-  .full-bleed{
-    @apply w-[100vw] ml-[50%] -translate-x-[50%]
-  }
 
   .wrapper{
     @apply w-[95%] max-w-[90rem] ml-[auto] mr-[auto]
+  }
+
+  .full-bleed{
+    @apply w-[100vw] ml-[calc(50%-50vw)]
+  }
+
+  .btn-primary{
+    @apply font-grifter rounded-lg tracking-wide text-primary-500 bg-secondary-700 text-xl xl:text-3xl xl:py-3 xl:px-6 py-2 px-4 shadow-[4px_4px_0px_#FFFDB4]
+  }
+
+  .form-input{
+    @apply bg-primary-600 font-semibold border-2 border-white/50 text-white text-xs rounded-2xl placeholder:text-white/50 placeholder:text-xs
   }
 }

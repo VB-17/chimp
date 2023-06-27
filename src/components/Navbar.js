@@ -6,7 +6,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 bg-primary-700/80  px-4 py-5">
+    <nav className="sticky top-0 z-10 bg-primary-700/80  px-4 py-5">
       <div className="max-w-screen-2xl mx-auto flex justify-between items-center">
         <div>
           <Logo />
