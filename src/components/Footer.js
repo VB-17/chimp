@@ -5,9 +5,9 @@ import Logo from "./Logo";
 function Footer() {
   return (
     <div className="bg-black p-6 ">
-      <div className="max-w-screen-2xl mx-auto space-y-9 md:px-2 md:flex md:flex-row-reverse md:justify-between md:items-stretch">
-        <div className="xl:max-w-2xl xl:columns-2 space-y-4 ">
-          <div className="flex flex-col gap-y-4">
+      <div className="max-w-screen-2xl mx-auto space-y-9 md:space-y-0 md:px-2 md:flex md:flex-row-reverse md:justify-between md:items-stretch">
+        <div className="xl:max-w-2xl space-y-4 xl:space-y-0 xl:flex xl:gap-x-20 ">
+          <div className="flex flex-col gap-y-4 xl:justify-between">
             {footerLinks.slice(0, 4).map((link) => (
               <a
                 className="uppercase tracking-widest font-bold"
@@ -18,7 +18,7 @@ function Footer() {
               </a>
             ))}
           </div>
-          <div className="flex flex-col gap-y-4">
+          <div className="flex flex-col gap-y-4 xl:justify-between">
             {footerLinks.slice(4).map((link) => (
               <a
                 className="uppercase tracking-widest font-bold"

@@ -17,6 +17,14 @@ module.exports = {
         },
       },
 
+      content: {
+        scribble: "url(./assets/scribble.svg)",
+      },
+
+      backgroundImage: {
+        scribble: "url(./assets/scribble.svg)",
+      },
+
       keyframes: {
         marquee: {
           "0%": { transform: "translateX(0%)" },

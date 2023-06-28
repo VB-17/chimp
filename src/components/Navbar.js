@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav className="sticky top-0 z-10 bg-primary-700/80  px-4 py-5">
-      <div className="max-w-screen-2xl mx-auto flex justify-between items-center">
+      <div className="max-w-screen-xl mx-auto flex justify-between items-center">
         <div>
           <Logo />
         </div>
