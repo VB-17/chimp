@@ -63,7 +63,7 @@ function HomePage() {
             </h4>
             <button className="btn-primary">View our recent works</button>
           </div>
-          <div className="grid grid-cols-1 gap-6  py-10">
+          <div className="grid grid-cols-2 gap-6 py-10">
             
               {[5, 6, 3, 2].map((i) => (
                 <img className="" src={require(`../assets/images/work-img-0${i}.png`)} />
